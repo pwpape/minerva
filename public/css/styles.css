@@ -1,4 +1,18 @@
 .budget {
+    width: 30vw;
     display: flex;
     flex-direction: column;
+}
+
+.budget .budget-item {
+    display: flex;
+    justify-content: space-between;
+    padding: .5vh 1vw;
+}
+
+.budget .budget-total {
+    display: flex;
+    justify-content: space-between;
+    padding: .5vh 1vw;
+    border-top: .1em solid #eee;
 }
