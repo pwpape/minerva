@@ -4,21 +4,26 @@ body {
 
 .header {
     height: 12vh;
+    display: flex;
     background-color: rgba(95,121,149,1)
 }
 
 .header img {
     max-height: 10vh;
     filter: invert(100%);
+    margin: auto;
     padding: 1vh;
 }
-
 
 .budget {
     width: 30vw;
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat';
+    margin: auto;
+}
+
+.budget button {
     margin: auto;
 }
 
