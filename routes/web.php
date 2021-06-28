@@ -21,6 +21,6 @@ Route::get('/budgets', function () {
     return view('budgets');
 });
 
-Route::get('/new-budget', function () {
+Route::get('/new', function () {
     return view('new');
 });
