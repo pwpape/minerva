@@ -1,8 +1,3 @@
-<!doctype html>
-
-<title>Minerva's Vault</title>
-<link href="{{ asset('css/styles.css') }}" rel="stylesheet" type="text/css" >
-
-<body>
+<x-layout>
     <p>Home</p>
-</body>
+</x-layout>

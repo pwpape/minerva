@@ -8,6 +8,10 @@ body {
     background-color: rgba(95,121,149,1)
 }
 
+.header a {
+    margin: auto;
+}
+
 .header img {
     max-height: 10vh;
     filter: invert(100%);

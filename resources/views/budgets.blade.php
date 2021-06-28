@@ -1,9 +1,4 @@
-<!doctype html>
-
-<title>Minerva's Vault</title>
-<link href="{{ asset('css/styles.css') }}" rel="stylesheet" type="text/css" >
-
-<body>
+<x-layout>
     <div class="budget">
         <div class="budget-item">
             <span>Housing</span>
@@ -42,4 +37,4 @@
             <span></span>
         </div>
     </div>
-</body>
+</x-layout>
