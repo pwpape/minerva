@@ -5,10 +5,12 @@
 
 <body>
     <header class="header">
-    <a href="/"><img src="{{ asset('images/owl.svg') }}"/></a>
+        <a href="/"><img src="{{ asset('images/owl.svg') }}"/></a>
     </header>
     <div class="main">
         {{ $slot }}
     </div>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <p>&#169; 2021</p>
+    </footer>
 </body>
