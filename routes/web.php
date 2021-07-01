@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\User;
+use App\Models\Category;
+use App\Models\Budget;
+use App\Models\Ledger;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,5 +26,6 @@ Route::get('/budgets', function () {
 });
 
 Route::get('/new', function () {
-    return view('new');
+    $categories = Category::all();
+    return view('new', ['categories' => $categories]);
 });
