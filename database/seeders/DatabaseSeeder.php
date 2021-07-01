@@ -23,6 +23,8 @@ class DatabaseSeeder extends Seeder
 
         $user = User::factory(10)->create();
 
+        Budget::factory()->create();
+
         Category::create([
             'name' => 'Mortgage/Rent',
             'type' => 'Housing'
