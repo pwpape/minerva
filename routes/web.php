@@ -21,7 +21,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/budgets/{user}', function (User $user) {
+Route::get('/budgets/{user:username}', function (User $user) {
     return view('budgets', ['budgets' => $user->budgets]);
 });
 
