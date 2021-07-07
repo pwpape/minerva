@@ -19,12 +19,7 @@ body {
     padding: 1vh;
 }
 
-.main {
-    height: 80vh;
-}
-
 .footer {
-    height: 8vh;
     display: flex;
 }
 
@@ -32,7 +27,7 @@ body {
     margin: auto;
 }
 
-.budget {
+.input {
     width: 30vw;
     display: flex;
     flex-direction: column;
@@ -40,21 +35,25 @@ body {
     margin: auto;
 }
 
-.budget button {
+.input h4 {
     margin: auto;
 }
 
-.budget .budget-item {
+.input button {
+    margin: auto;
+}
+
+.input .input-item {
     display: flex;
     justify-content: space-between;
     padding: .5vh 1vw;
 }
 
-.budget .budget-item input {
+.input .input-item input {
     border-radius: .8em;
 }
 
-.budget .budget-total {
+.input .budget-total {
     display: flex;
     justify-content: space-between;
     padding: .5vh 1vw;
