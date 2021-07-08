@@ -9,6 +9,16 @@
     </header>
     <nav class="nav">
         <a href="/new">New</a>
+        @auth
+            <span>Welcome, {{ auth()->user()->name }}</span>
+            <form method="POST" action="/logout">
+                @csrf
+                <button type="submit">Logout</button>
+            </form>
+        @else
+            <a href="/register">Register</a>
+            <a href="/login">Login</a>
+        @endauth
     </nav>
     <div class="main">
         {{ $slot }}
